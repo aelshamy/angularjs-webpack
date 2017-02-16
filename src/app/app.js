@@ -2,6 +2,7 @@ import angular from 'angular';
 import uirouter from 'angular-ui-router';
 import routing from './app.config';
 import home from '../modules/home';
+console.log(home);
 
 import '../style/app.css';
 
@@ -15,7 +16,7 @@ let app = () => {
 
 class AppCtrl {
   constructor() {
-    this.url = 'https://github.com/preboot/angular-webpack';
+    this.url = 'https://github.com/aelshamy/angularjs-webpack';
   }
 }
 

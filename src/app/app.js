@@ -21,7 +21,7 @@ class AppCtrl {
 }
 
 const MODULE_NAME = 'app';
-
+/*@ngInject*/
 angular.module(MODULE_NAME, [home,  uirouter])
   .config(routing)
   .directive('app', app)
